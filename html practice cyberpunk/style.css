@@ -1,0 +1,58 @@
+body{
+	background-color: #8800ff;
+}
+
+a{
+	color: white;
+}
+
+h1, p, li, h2, h3, blockquote,strong{
+	font-family: "VT323";
+	color: #48e000;
+}
+
+h1, p{
+	margin:0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 100px;
+	width: 80vw;
+}
+
+p{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90vw;
+	font-size: 20px;
+}
+
+li{
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+blockquote{
+	font-size: 20px;
+}
+
+
+h1,h2,h3{
+	text-decoration: underline;
+	text-decoration-color: #48e000;
+
+}
+
+image{
+	margin-right: auto;
+	margin-left: auto;
+	image-rendering: auto;
+	width: 80vw;
+}

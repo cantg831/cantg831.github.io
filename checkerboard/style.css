@@ -1,0 +1,55 @@
+
+
+.dot:hover{
+	background-color: red;
+}
+
+.dott:hover{
+	background-color: red;
+}
+
+.dot{
+	background-color: white;
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	background-color: gold;
+	position: fixed;
+	top:87px;
+	left: 86px;
+
+
+
+}
+
+.dott{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	background-color: gold;
+	position: fixed;
+	top:299px;
+	left: 300px;
+
+
+}
+
+
+.square{
+	
+	background-color: black;
+	float: left;
+
+	height: 10vw;
+	width: 10vw;
+}
+
+
+.red{
+	
+	background-color: red;
+	float: left;
+
+	
+
+}

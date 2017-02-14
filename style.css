@@ -1,0 +1,21 @@
+body{
+	background-color: black;
+
+}
+blockquote{
+	text-indent: -60px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+	font-weight: 900px;
+	text-align: center;
+}
+
+
+ol,a{
+	font-family: 'Permanent Marker', cursive;
+	font-size: xx-large;
+	color: aqua;
+}
+

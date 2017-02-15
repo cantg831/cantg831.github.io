@@ -1,3 +1,9 @@
+
+h1{
+	margin-left:240px;
+
+}
+
 body{
 	background-color: black;
 
@@ -16,6 +22,9 @@ blockquote{
 ol,a{
 	font-family: 'Permanent Marker', cursive;
 	font-size: xx-large;
-	color: aqua;
+	color: #49ff5c;
 }
 
+div{
+	position: absolute;
+}

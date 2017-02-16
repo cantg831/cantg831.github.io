@@ -1,5 +1,28 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+html {
+  margin: 0;
+  background-color: lightgray;
+}
+
+
+
 body{
-	background-color: black;
+  background-color: black;
+  position: relative;
+  width: 80%;
+  max-width: 1100px;
+  padding: 20px;
+  margin: auto;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+	
 }
 
 
@@ -16,6 +39,7 @@ h1{
 	text-decoration-color: black;
 	font-size: 50px;
 	font-weight: bolder;
+	line-height: 110%
 }
 
 h2{

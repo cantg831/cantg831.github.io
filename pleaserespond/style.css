@@ -1,0 +1,14 @@
+h1,h2,p{
+	font-family: helvetica;
+	font-size: medium;
+
+}
+
+h1{
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+h2{
+	font-size: large;
+}

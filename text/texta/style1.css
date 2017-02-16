@@ -1,22 +1,26 @@
 html{
 	background-color: black;
 	font-family: helvetica;
-	font-size: x-large;
+	font-size: 40px;
 	font-weight: thick;
 
 }
 
+#red{
+	color: red;
+}
 
+#blue{
+	color: blue;
+}
 p{
-	color: aqua;
-}
-
-a{
-	color: aqua;
-}
-
-a{
 	color: pink;
+}
+
+
+
+a{
+	color: aqua;
 }
 
 iframe{

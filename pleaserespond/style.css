@@ -1,14 +1,31 @@
-h1,h2,p{
+body{
+	background-color: black;
+}
+
+
+
+h1,h2,h3,p{
+	color: white;
 	font-family: helvetica;
 	font-size: medium;
 
 }
 
 h1{
-	font-size: xx-large;
+	text-align: center;
+	text-decoration-color: black;
+	font-size: 50px;
 	font-weight: bolder;
 }
 
 h2{
-	font-size: large;
+	text-align: center;
+	font-size: 10px;
+	margin-top: -2%;
+}
+
+h3,blockquote{
+	font-size: 20px;
+	text-align: center;
+
 }

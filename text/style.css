@@ -6,8 +6,21 @@ html{
 
 }
 
+.iframe1{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	left: 50px;
+}
 
-
+.iframe2{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	left:620px;
+	top: -400px;
+	
+}
 
 
 

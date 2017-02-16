@@ -9,16 +9,29 @@ html {
   background-color: lightgray;
 }
 
+.logo{
+  position: absolute;
+  top:5px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+  border-radius: 50%;
+
+}
+
 
 body {
   position: relative;
   width: 80%;
+  max-width: 1100px;
   padding: 20px;
   margin: auto;
   background-color: white;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
+
 }
 
 h1 {
@@ -66,13 +79,38 @@ img {
   margin-right: 2%;
 }
 
-/*below is called media query*/
+/*below is called media query its like the mobile version*/
 
 @media screen and (max-width: 650px) {
+
+  .logo{
+    display: none;
+  }
+
+
+  h1{
+    left: 0;
+    text-align: center;
+  }
+
+  }
+
+  .menu{
+    width: : 94%;
+    float: none;
+    margin-bottom: 14px;
+  }
+
+  .content{
+    width: 90%;
+    float: none;
+  }
+
   img{
     width: 100%;
     margin-right: 0;
-    
   }
+
+
 
 }

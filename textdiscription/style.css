@@ -14,3 +14,9 @@ p,blockquote,h1{
 
 }
 
+video{
+	position: fixed;
+	top:60px;
+	left: 50%;
+}
+

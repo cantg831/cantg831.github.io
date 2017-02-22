@@ -1,26 +1,57 @@
-body:hover{
-	background-color: black;
+body:{
+	background-color: white;
 }
 
-h1, h2,h3,a,p,ol, blockquote{
+h1, h2,h3,a,p, blockquote{
 
-	font-family: helvetica;
-	color: purple;
+	font-family: times;
+	color: black;
 	margin-right: 10px;
 
 
 }
 
 h1{
+	left: 0%;
 	font-size: xx-large;
 	font-weight: bolder;
 }
 
-p,blockquote{
+p{
+	width: 51%;
 	font-size: large;
 	font-weight: bold;
 }
 
+.blockquote1{
+	position: absolute;
+	width: 30%;
+	top:40%;
+	left: 0%;
+
+
+}
+
+.blockquote2{
+	position: absolute;
+	width: 30%;
+	top:59%;
+	left: 30%;
+
+
+}
+
+
+.list {
+	position: fixed;
+	float: right;
+	background-color: aqua;
+	width: 22%;
+	height: 100%;
+	top:0%;
+	left: 80%;
+
+}
 
 
 

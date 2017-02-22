@@ -10,52 +10,95 @@ body{
 }
 blockquote{
 	text-indent: -60px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+	left: 19%;
+	top: 20%;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	font-size: 40px;
 	font-weight: 900px;
 	text-align: center;
 }
 
 
-ol,a{
+li,a{
 	font-family: 'Permanent Marker', cursive;
 	font-size: xx-large;
-	color: #ff00ee;
+	color: rgb(185, 0, 255);
 }
 
-div{
+
+
+.gif10{
 	position: absolute;
+	width: 99%;
+	top:1%;
+	left: 1%;
+
+}
+
+.gif{
+	position: absolute;
+	top: 16%;
+	width: 28%;
+
+}
+
+.gif2{
+	position: absolute;
+	width: 28%;
+	top: 12%;
+	left: 67%;
+
+}
+
+.gif3{
+	position: absolute;
+	top:41%;
+	width: 20%;
+}
+
+.gif4{
+	position: absolute;
+	top:41%;
+	width: 30%;
+	left: 70%;
+}
+
+.gif5{
+	position: absolute;
+	top:41%;
+	left: 8%;
+	width: 40%;
+
 }
 
 
+.gif8{
+	position: absolute;
+	top:99%;
+	left: 0%;
+	width: 27%;
+}
 
-@media screen and (max-width: 650px) {
+.gif11{
+	position: absolute;
+	top:100%;
+	left: 75%;
 
- 
+}
 
+.gif12{
+	position: absolute;
+	width: 42%;
+	left: 29%;
+}
 
-  h1{
-    left: 0;
-    text-align: center;
-  }
-
-  }
-
-  .menu{
-    width: : 94%;
-    float: none;
-    margin-bottom: 14px;
-  }
-
- 
-
-  img{
-    width: 100%;
-    margin-right: 0;
-  }
-
+.gif12{
+	position: absolute;
+	top: 120%;
 
 
 }
+
+

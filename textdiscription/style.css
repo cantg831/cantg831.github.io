@@ -1,0 +1,16 @@
+body{
+	height: 100%;
+	background-color: black;
+}
+
+p,blockquote,h1{
+	position: relative;
+	text-align: left;
+	width: 30vw;
+
+	font-family: helvetica;
+	font-size: 19px;
+	color: white;
+
+}
+

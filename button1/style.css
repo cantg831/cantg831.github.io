@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  transition: background-color 0.25s linear;
+}
+
+h1{
+  font-family: helvetica;
+  color: green;
+  font-size: 80px;
+  position: absolute;
+  top:20px;
+  left: 10px;
+}
+
+
+
+.button {
+  position: relative;
+  margin: auto;
+  top: -37px;
+  width: 722px;
+  height: 722px;
+  border-radius: 135px;
+  cursor: pointer;
+  background-image: url("button");
+  transition: top 0.5s ease-in-out;
+
+}
+
+
+.focused{
+  /*background-color: rgb(120,120,120);*/
+  /*border: 1px solid rgb(40,40,40);*/
+}
+
+.active{
+  /*background-color: rgb(200,20,34);*/
+  
+  background-image: url("pressed.png");
+  /*border:1px solid rgb(255,0,0);*/
+
+}
+
+
+  /* switch img*/
+ 
+

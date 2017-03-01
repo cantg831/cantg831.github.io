@@ -14,7 +14,7 @@ $(".button").on("mouseleave", function(){
 
 $(".button").on("click",function(){
 	$(this).toggleClass("active");
-	$("h1").html("YAY!");
+	$("h1").html("Aaaayyyyeeee ;)");
 });
 
 $("h1").on("click", function(){

@@ -18,13 +18,20 @@ body {
   height: 150px;
   width: 100%;
   line-height: 150px;
-  background-color: rgba(0, 0, 0, 0.7);
+  /*background-color: rgba(0, 0, 0, 0.7);*/
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 50px;
   color: white;
   text-align: center;
   z-index: 99;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 6s;
+
+   
 }
+
+
 
 
 #balloon-container {
@@ -45,12 +52,62 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   float: left;
+  animation: drift;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
+
+.big{
+  width: 80px;
+  height: 80px;
+}
 
 .popped{
   opacity: 0;
-  
+  pointer-events: none;
+
 }
+
+
+@keyframes example{
+  from{background-color: red;}
+  to{background-color: pink;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes drift{
+
+  0%{
+    left: 0;
+  }
+
+  50%{
+    left: -10px;
+
+  }
+
+  100%{
+    left: 0;
+
+
+  }
+
+
+}
+
+
+
+
 
 

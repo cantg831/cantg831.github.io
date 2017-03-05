@@ -1,0 +1,69 @@
+#ball{
+	background-color: black;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	position: relative;
+	top: 120px;
+	left: 420px;
+	animation-name: shake;
+	animation-duration: 7s;
+}
+
+#ballcenter{
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: fixed;
+	top: 229px;
+	left: 526px;
+	animation-name: shake;
+	animation-duration: 7s;
+	cursor: pointer;
+}
+
+
+p{
+	color: black;
+	font-family: helvetica; 
+	font-size: 87px;
+	top:191px;
+	left: 601px;
+	position: fixed;
+	animation-name: shake;
+	animation-duration: 7s;
+}
+
+/*#ballcenteractive{
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: fixed;
+	top: 229px;
+	left: 526px;
+
+}*/
+
+@keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}

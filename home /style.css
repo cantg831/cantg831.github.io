@@ -28,10 +28,11 @@ li,a{
 }
 
 li{
-	background-size: 35%;
+	background-size: 40%;
 	background-color: aqua;
-	background-size: 38% ;
+	left: 20%;
 }
+
 
 .name{
 
@@ -43,29 +44,27 @@ li{
 
 .instagram{
 	position: absolute;
-	width: 3%;
-	left: 48%;
-	top:19%;
+	width: 5%;
+	left: 44%;
+	top:16.2%;
 }
 
 .twitter{
 	position: absolute;
-	width: 3%;
-	left: 42.9%;
-	top:19%;
+	width: 5.5%;
+	left: 34.1%;
+	top:16%;
 
 }
 
 .facebook{
 	position: absolute;
-	width: 4%;
+	width: 6.5%;
 	left: 52.8%;
-	top:18%;
+	top:15%;
 }
 
-.stars{
-	width: 40%;
-}
+
 
 
 

@@ -10,7 +10,7 @@ body{
 .listbackground{
  	position: absolute;
  	top:30%;
- 	left: 25%;
+ 	left: 24%;
  	background-color: aqua;
  	height: 78%;
  	width: 50%;
@@ -84,6 +84,20 @@ li,a{
 	width: 7%;
 	top: 14%;
 	left: 65%
+
+}
+.super5{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 20%;
+
+}
+.super6{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 70%;
 
 }
 

@@ -1,37 +1,39 @@
-
 h1{
 	margin-left:220px;
 
 }
-
 body{
 	background-color: black;
 
 }
+
+.listbackground{
+ 	position: absolute;
+ 	top:30%;
+ 	left: 25%;
+ 	background-color: aqua;
+ 	height: 73%;
+ 	width: 50%;
+ 	
+ }
 blockquote{
 	text-indent: -60px;
 	position: absolute;
-	left: 19%;
-	top: 20%;
+	left: 28%;
+	top: 24.1%;
 	/*margin-left: auto;
 	margin-right: auto;*/
-	font-size: 40px;
+	font-size: 37px;
 	font-weight: 900px;
 	text-align: center;
 }
-
-
 li,a{
 	font-family: 'Permanent Marker', cursive;
-	font-size: xx-large;
+	font-size: 25px;
 	color: rgb(185, 0, 255);
 }
 
-li{
-	background-size: 40%;
-	background-color: aqua;
-	left: 20%;
-}
+
 
 
 .name{
@@ -42,25 +44,97 @@ li{
 
 }
 
-.instagram{
+.freshprince1{
 	position: absolute;
-	width: 5%;
-	left: 44%;
-	top:16.2%;
+	width: 15%;
+	left: 51%;
+	top:13%;
+
+}
+.freshprince2{
+	position: absolute;
+	width: 15%;
+	left: 31%;
+	top:13%;
+}
+
+.super1{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 60%;
+
+}
+.super2{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 30%;
+
+}
+.super3{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 25%;
+
+}
+.super4{
+	position: absolute;
+	width: 7%;
+	top: 14%;
+	left: 65%
+
+}
+
+.tiger{
+	position: absolute;
+	width: 26%;
+	top:23%;
+	left: 75%;
+
+}
+
+.turtle{
+	position: absolute;
+	width: 19%;
+	top: 30%;
+	left: 2%;
+
+}
+
+.codeclub{
+	position: absolute;
+	width:20%;
+	top:69%;
+	left: 2%;
+}
+
+.computer{
+	position: absolute;
+	width: 20%;
+	top:69%;
+	left: 77%;
 }
 
 .twitter{
 	position: absolute;
 	width: 5.5%;
-	left: 34.1%;
+	left: 41%;
 	top:16%;
 
+}
+.instagram{
+	position: absolute;
+	width: 5%;
+	left: 46%;
+	top:16.2%;
 }
 
 .facebook{
 	position: absolute;
 	width: 6.5%;
-	left: 52.8%;
+	left: 50%;
 	top:15%;
 }
 

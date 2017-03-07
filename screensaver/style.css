@@ -1,13 +1,20 @@
+#wrapper{
+	position: relative;
+	animation-name: shake;
+	animation-duration: 3s;
+
+}
+
+
 #ball{
 	background-color: black;
 	height: 400px;
 	width: 400px;
 	border-radius: 50%;
-	position: relative;
+	position: fixed;
 	top: 120px;
 	left: 420px;
-	animation-name: shake;
-	animation-duration: 7s;
+	
 }
 
 #ballcenter{
@@ -16,35 +23,206 @@
 	width: 200px;
 	border-radius: 50%;
 	position: fixed;
-	top: 229px;
+	top: 225px;
 	left: 526px;
-	animation-name: shake;
-	animation-duration: 7s;
-	cursor: pointer;
+	
+	
 }
+
+
+h1{
+	color: black;
+	font-family: helvetica; 
+	font-size: 86px;
+	top:213px;
+	left: 601px;
+	position: fixed;
+	
+	
+}
+
 
 
 p{
-	color: black;
-	font-family: helvetica; 
-	font-size: 87px;
-	top:191px;
-	left: 601px;
-	position: fixed;
-	animation-name: shake;
-	animation-duration: 7s;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 10px;
 }
 
-/*#ballcenteractive{
+#message1{
+	position: fixed;
+	left:43%;
+	top:44%;
+	
+}
+#message2{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+}
+#message3{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message4{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message5{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+}
+#message6{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message7{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message8{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message9{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message10{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message11{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message12{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message13{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message14{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message15{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message16{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message17{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message18{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message19{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message20{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+#message21{
+	position: fixed;
+	left:43%;
+	top: 44%;
+
+
+}
+#message22{
+	position: fixed;
+	left:43%;
+	top: 44%;
+	
+
+}
+
+
+
+
+.hidden{
+	opacity: 0;
+
+}
+
+.show {
+	opacity: 1;
+}
+
+#ballcenteractive{
 	background-color: white;
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	position: fixed;
-	top: 229px;
+	top: 225px;
 	left: 526px;
 
-}*/
+}
 
 @keyframes shake {
   from, to {
@@ -53,13 +231,13 @@ p{
   }
 
   10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
+    -webkit-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
   }
 
   20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
   }
 }
 

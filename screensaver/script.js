@@ -1,11 +1,18 @@
 $(document).ready(function() {
 
-$("#ballcenter").on ("mouseenter", function(){
+
+$("#ball").on("shake", function(){
 	$(this).addClass("focused");
+	$("h1").addClass("hidden");
+	
 });
 
-$("#ballcenter").on("mouseleave", function(){
-	$(this).removeClass("focused");
+$("#ballcenter").on("hidden", function(){
+	$(this).removeClass("h1");
+});
+
+$("#ballcenteractive").on("active", function(){
+	$("p").addClass("show");
 });
 
 
@@ -13,6 +20,9 @@ $("#ballcenter").on("mouseleave", function(){
 
 
 
+
+// setInterval
+// switch over to showing messages, rather than hiding the 8
 
 
 

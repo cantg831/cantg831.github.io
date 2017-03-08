@@ -12,7 +12,7 @@ body{
  	top:30%;
  	left: 21%;
  	background-color: aqua;
- 	height: 94%;
+ 	height: 109%;
  	width: 57%;
  	
  }
@@ -152,26 +152,127 @@ li,a{
 	top:15%;
 }
 
-.smiley1{
+.princess{
 	position: absolute;
-	width: 3%;
-	top:31%;
-	left: 38%;
-
-}
-.smiley2{
-	position: absolute;
-	width: 3%;
-	top:31%;
-	left: 38%;
-
+	width: 4%;
+	left: 37%;
+	top:30%;
 }
 
+.finger{
+	position: absolute;
+	width: 6%;
+	left: 22%;
+	top:35%;
+}
 
+.monkey{
+	position: absolute;
+	width: 4%;
+	left: 42%;
+	top: 63%;
+}
+
+.cat{
+	position: absolute;
+	width: 4%;
+	left: 36%;
+	top: 50%;
+}
+
+.balloon{
+	position: absolute;
+	width: 4%;
+	left: 37%;
+	top:124%;
+}
+
+.dog{
+	position: absolute;
+	width: 4%;
+	left: 36%;
+	top: 44%;
+}
+
+.alien{
+	position: absolute;
+	width: 4%;
+	left: 40%;
+	top:57%;
+}
+
+.unicorn{
+	position: absolute;
+	width: 7%;
+	left: 32%;
+	top: 67%;
+}
+.flower{
+	position: absolute;
+	width: 4%;
+	left: 37%;
+	top: 77%;
+}
  
+.peach{
+	position: absolute;
+	width: 4%;
+	left: 35%;
+	top: 103%;
+
+}
+
+.shroom{
+	position: absolute;
+	width: 4%;
+
+}
+
+.crystal{
+	position: absolute;
+	width: 3%;
+	top: 91%;
+	left: 36%;
 
 
+}
 
+.ball8{
+	position: absolute;
+	width: 3%;
+	top: 131%;
+	left: 38%;
+
+
+}
+
+.pepper{
+	position: absolute;
+	width: 4%;
+
+}
+
+.lightbulb{
+	position: absolute;
+	width: 2.5%;
+	top: 97%;
+	left: 38%;
+
+
+}
+.poop{
+	position: absolute;
+	width: 4%;
+	top: 83%;
+	left: 30%;
+
+}
+.devil{
+	position: absolute;
+	width: 4%;
+	top: 116%;
+	left: 37%;
+}
 
 
 

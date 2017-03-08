@@ -2,27 +2,36 @@ html, body {
   height: 100%;
 }
 
-.button{
-	position: relative;
-	height: 300px;
-	width: 300px;
-	border-radius:50%;
-	top: 177px;
-	left: 464px;
-	background-color: red;
-	cursor: pointer;
+body{
+  transition: background-color 0.25s linear;
+}
+
+h1{
+  font-family: helvetica;
+  color: rgba(255, 0, 0, 0.71);;
+  font-size: 46px;
+  position: absolute;
+  top:20px;
+  left: 354px;
+}
+
+
+
+.button {
+  /*background-color: blue;*/
+  position: relative;
+  margin: auto;
+  top: 392px;
+  width: 451px;
+  height: 651px;
+  left: 0px;
+  border-radius: 247px;
+  cursor: pointer;
+  background-image: url("kanye1.png");
+  transition: top 0.5s ease-in-out;
 
 }
 
-p{
-	position: fixed;
-	font-family: helvetica;
-	font-size: 43px;
-	color: white;
-	top: 271px;
-	left: 481px;
-
-}
 
 .focused{
   /*background-color: rgb(120,120,120);*/
@@ -32,8 +41,11 @@ p{
 .active{
   /*background-color: rgb(200,20,34);*/
  
-  background-image: url("mily2.png");
+  background-image: url("kanye2.png");
 
   /*border:1px solid rgb(255,0,0);*/
 
 }
+
+
+  /* switch img*/

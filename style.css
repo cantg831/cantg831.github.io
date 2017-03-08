@@ -10,16 +10,16 @@ body{
 .listbackground{
  	position: absolute;
  	top:30%;
- 	left: 24%;
+ 	left: 21%;
  	background-color: aqua;
- 	height: 78%;
- 	width: 50%;
+ 	height: 94%;
+ 	width: 57%;
  	
  }
 blockquote{
 	text-indent: -60px;
 	position: absolute;
-	left: 28%;
+	left: 26%;
 	top: 24.1%;
 	/*margin-left: auto;
 	margin-right: auto;*/
@@ -152,7 +152,23 @@ li,a{
 	top:15%;
 }
 
+.smiley1{
+	position: absolute;
+	width: 3%;
+	top:31%;
+	left: 38%;
 
+}
+.smiley2{
+	position: absolute;
+	width: 3%;
+	top:31%;
+	left: 38%;
+
+}
+
+
+ 
 
 
 

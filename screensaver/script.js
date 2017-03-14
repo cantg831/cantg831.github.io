@@ -1,68 +1,30 @@
 $(document).ready(function() {
 
-var messageCounter =0;
+	var messages = $(".message");
+	
+	var messageCounter =0;
 
-setInterval(function){
-	$(".message").html(messages[messageCounter]);
+	setInterval(function(){
+		 $(".message").html(messages[messageCounter]);
 
-	messageCounter++;
+		messageCounter++;
 
-	if(messageCounter >= messages.length){
-		counter = 0;
-	 }
+		if(messageCounter >= messages.length){
+			counter = 0;
+	 	}
 
 
 	}, 5000);
 
 
 
-}
+
+
+});
+
 
 	
-
-}
-
-
-
-
-
-
-
-
 // setInterval
 // switch over to showing messages, rather than hiding the 8
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});

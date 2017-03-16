@@ -1,0 +1,225 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(103,231,255,0.32)
+}
+
+h1 {
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 54px;
+  color: white/*rgba(103,231,255,0.58)*/;
+  font-weight: bolder;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h2{
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h3{
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h4{
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+
+
+}
+
+h5{
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+
+#weather {
+  margin-top: 8px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#temp {
+  margin-top: 8px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#wind{
+  margin-top: 8px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#flake1{
+  position: absolute;
+  width: 10%;
+  top: 10%;
+  left: 16%;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+}
+#flake2{
+  position: absolute;
+  width: 12%;
+  top: 35%;
+  left: 23%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake3{
+  position: absolute;
+  width: 11%;
+  top: 37%;
+  left: 68%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+
+}
+#flake4{
+  position: absolute;
+  width: 9%;
+  top: 11%;
+  left: 75%;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+
+}
+#flake5{
+  position: absolute;
+  width: 13%;
+  top: 56%;
+  left: 13%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake6{
+  position: absolute;
+  width: 11%;
+  top: 58%;
+  left: 77%;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+}
+#flake7{
+  position: absolute;
+  width: 9%;
+  top: 29%;
+  left: 90%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake8{
+  position: absolute;
+  width: 8%;
+  top: 29%;
+  left: 2%;
+  animation-name: fadeInDown;
+  animation-duration: 4s;
+}
+#flake9{
+  position: absolute;
+  width: 5%;
+  top: 34%;
+  left: 15%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake10{
+  position: absolute;
+  width: 5%;
+  top: 54%;
+  left: 5%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake11{
+  position: absolute;
+  width: 5%;
+  top: 67%;
+  left: 64%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+#flake12{
+  position: absolute;
+  width: 5%;
+  top: 38%;
+  left: 83%;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+
+
+

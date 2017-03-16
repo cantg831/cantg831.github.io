@@ -1,0 +1,2 @@
+
+var message =[ "message1.png", "message2.png", "message3.png","message4.png","message5.png","message6.png","message7.png","message8.png","message9.png","message10.png","message11.png","message12.png","message13.png","message14.png","message15.png"];

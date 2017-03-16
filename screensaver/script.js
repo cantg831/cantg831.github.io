@@ -1,23 +1,29 @@
 $(document).ready(function() {
 
-	var messages = $(".message");
-	
+	var message 
 	var messageCounter =0;
 
 	setInterval(function(){
-		 $(".message").html(messages[messageCounter]);
-
+		$("#message-target".html(message[messageCounter]));
 		messageCounter++;
 
-		if(messageCounter >= messages.length){
-			counter = 0;
-	 	}
+		if (messageCounter >= message.length){
+		 	counter = 0;
+		}
 
 
-	}, 5000);
+	});
 
 
+function updateAll() {
 
+	$("#message-target").html(message[messageCounter]);
+		messageCounter++;
+
+	if (messageCounter === message.length){
+		messageCounter =0;
+	}
+}
 
 
 });

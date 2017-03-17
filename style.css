@@ -4,6 +4,8 @@ body{
 
 }
 
+
+/*links*/
 blockquote{
 	position: absolute;
 	text-indent: -56px;
@@ -12,11 +14,17 @@ blockquote{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	color: rgb(255,218,233,0.49)
 }
-li,a{
+li{
 	font-family: 'Roboto', sans-serif, bold;
 	font-size: 20px;
 	color: rgb(255,218,233,0.49)
+}
+a{
+	color: rgb(255,218,233,0.49)
+}
+
 }
 
 

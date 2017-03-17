@@ -9,7 +9,7 @@ body{
 blockquote{
 	position: absolute;
 	text-indent: -56px;
-	left: 35%;
+	left: 27%;
 	top: 42.1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -18,7 +18,7 @@ blockquote{
 }
 li{
 	font-family: 'Roboto', sans-serif, bold;
-	font-size: 20px;
+	font-size: 28px;
 	color: rgb(255,218,233,0.49)
 }
 a{

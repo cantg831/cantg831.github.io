@@ -9,52 +9,71 @@ body{
 blockquote{
 	position: absolute;
 	text-indent: -56px;
-	left: 27%;
+	left: 56%;
 	top: 42.1%;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
-	color: rgb(255,218,233,0.49)
+	text-align: right;
+	color: white;
 }
+
 li{
-	font-family: 'Roboto', sans-serif, bold;
+	font-family: helvetica;
+	font-weight: bolder;
 	font-size: 28px;
-	color: rgb(255,218,233,0.49)
+	color: whi;
+	list-style-type: none;
 }
+
+
 a{
-	color: rgb(255,218,233,0.49)
+	color: rgba(253,214,230,1);
+	text-decoration: none;
 }
 
+a:visited{
+	color: rgba(253,214,230,1);
+	text-decoration: none;
+
+
 }
 
-
-/*logos*/
-.logo{
-	position: absolute;
-	left: 39%;
-	top:3%;
-	width: 20%;
+a:hover{
+	color: white;
 	animation-name: fadeIn;
-	animation-duration: 3s;
+	animation-duration: 1s;
+	text-decoration: underline;
+
 }
 
-.coutour{
+a:active{
+	color: rgba(253,214,230,1);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+
+.gclogo{
 	position: absolute;
-	width: 36%;
-	top: 24%;
-	left: 31%;
+	width: 25%;
+	left: 36.4%;
+
+}
+
+.coutourwhite{
+	position: absolute;
+	width: 28%;
+	left: 35%;
+	top: 30%;
+}
+
+.gclogo:hover{
+	color: rgba(253,214,230,1);
 	animation-name: fadeIn;
-	animation-duration: 3s;
-}
+	animation-duration: 2s;
 
-
-.box{
-	position: absolute;
-	background-color: rgba(255,255,255,0.91);
-	top:43%;
-	left: 0%;
-	width: 101%;
-	height: 101%;
 
 }
 

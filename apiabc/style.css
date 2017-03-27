@@ -1,0 +1,30 @@
+body{
+
+}
+
+
+h1{
+	font-family: helvetica;
+	font-weight: bolder;
+}
+
+p{
+
+	font-family: helvetica;
+	font-weight: bolder;
+	
+	
+
+}
+
+li,a{
+	font-family: helvetica;
+
+}
+
+.image{
+	position: absolute;
+	width: 50%;
+	left: 20%;
+	top: 57%;
+}

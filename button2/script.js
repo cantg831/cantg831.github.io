@@ -18,7 +18,7 @@ $(".button").on("click",function(){
 	$("h1").html();
 	myCounter++;
 	console.log(myCounter)
-if(myCounter===7){
+if(myCounter===4){
 	$(this).addClass("disappear")
 }
 	

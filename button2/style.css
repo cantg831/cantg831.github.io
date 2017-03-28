@@ -48,8 +48,14 @@ h1{
 }
 
 .disappear{
+  background-image: url("kanye3.png");
+  position: absolute;
+  width: 1082px;
+  top: 24px;
+  left: 81px;
+
   transition: left 2s;
-  left: 70%;
+  left: 99%;
 }
 
 

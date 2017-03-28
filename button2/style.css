@@ -47,5 +47,10 @@ h1{
 
 }
 
+.disappear{
+  transition: left 2s;
+  left: 70%;
+}
+
 
   /* switch img*/

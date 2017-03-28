@@ -1,7 +1,6 @@
 #wrapper{
 	position: relative;
-	animation-name: shake;
-	animation-duration: 1s;
+	
 	
 
 }
@@ -46,11 +45,20 @@ h1{
 	top: 225px;
 	left: 526px;
 	opacity: 0;
-	animation-name: fadeIn;
-	animation-duration: 7s;
+	
 
 }
 
+
+.fade{
+	animation-name: fadeIn;
+	animation-duration: 3s;
+
+}
+
+.hide{
+	opacity: 0;
+}
 
 /*animation*/
 @keyframes fadeIn {
@@ -103,5 +111,6 @@ h1{
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
+  animation-duration: 5s;
 }
 

@@ -1,0 +1,23 @@
+h1{
+	font-family: helvetica;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+p{
+	font-family: helvetica;
+	font-size: medium;
+	font-weight: bolder;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+
+
+video{
+	position: absolute;
+	width: 70%;
+	left: 15%;
+	top: 30%;
+
+}

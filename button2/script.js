@@ -1,5 +1,6 @@
 $(document).ready(function(){
 // all code goes in here between these:{}
+var myCounter=0;
 
 console.log("hi there");
 
@@ -15,7 +16,11 @@ $(".button").on("mouseleave", function(){
 $(".button").on("click",function(){
 	$(this).toggleClass("active");
 	$("h1").html();
-
+	myCounter++;
+	console.log(myCounter)
+if(myCounter===7){
+	$(this).addClass("disappear")
+}
 	
 });
 
@@ -23,6 +28,11 @@ $("h1").on("click", function(){
 	$(this).html("Switch");
 
 });
+
+
+
+
+
 
 
 

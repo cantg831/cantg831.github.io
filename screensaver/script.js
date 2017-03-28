@@ -1,29 +1,31 @@
 $(document).ready(function() {
 
-	var message 
+	 
 	var messageCounter =0;
 
 	setInterval(function(){
-		$("#message-target".html(message[messageCounter]));
-		messageCounter++;
+
+
+		$("h1").addClass("hide");
+		$("#wrapper").removeClass("shake")
+		setTimeout(function(){
+			messageCounter++;
+		$("#wrapper").addClass("shake");
+		$(".m"+messageCounter).addClass("fade");
 
 		if (messageCounter >= message.length){
-		 	counter = 0;
+		 	counter = 15;
 		}
 
 
-	});
+		},800);
+		
 
 
-function updateAll() {
 
-	$("#message-target").html(message[messageCounter]);
-		messageCounter++;
+	},2000);
 
-	if (messageCounter === message.length){
-		messageCounter =0;
-	}
-}
+
 
 
 });

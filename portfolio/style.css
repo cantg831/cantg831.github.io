@@ -77,11 +77,13 @@ a:active{
 
 }
 
+
+
 .fuckit{
 	position: absolute;
-	width: 15%;
-	left: 4%;
-	top: 46%;
+	width: 13.4%;
+	left: 11%;
+	top: 85%;
 
 	
 }
@@ -89,24 +91,46 @@ a:active{
 .moma{
 	position: absolute;
 	width: 13%;
-	left: 22%;
-	top: 46%;
+	left: 27.5%;
+	top: 85%;
 
 }
 
 .poster1{
+	position: absolute;
+	width: 13.5%;
+	top: 46%;
+	left: 11%;
+
 
 }
 .poster2{
-
+	position: absolute;
+	width: 13.5%;
+	top: 46%;
+	left:27.6%;
 }
 .poster3{
+	position: absolute;
+	width: 13.5%;
+	top: 46%;
+	left: 44%;
+
 
 }
 .poster4{
+	position: absolute;
+	width: 13.5%;
+	top: 46%;
+	left: 60.5%;
 
 }
-.post
+.poster5{
+	position: absolute;
+	width: 13.5%;
+	top: 46%;
+	left: 77%;
+}
 
 
 

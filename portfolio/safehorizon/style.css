@@ -1,0 +1,142 @@
+body{
+	background-color: rgba(255,218,233,0.8);
+
+}
+a{
+	color: rgba(234,153,186,1);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgba(234,153,186,1);
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: white;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	text-decoration: underline;
+
+}
+
+a:active{
+	color:rgba(253,214,230,1) ;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+img:hover{
+	cursor: crosshair;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+
+
+h1{
+	position: absolute;
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: xx-large;-large;
+	color: white;
+	width: 20%;
+	top: 24%;
+	left: 3%;
+	z-index: 1;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+
+}
+
+p{
+	position: absolute;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: large;
+	color: white;
+	width: 52%;
+	top: 28%;
+	left: 47%;
+	z-index: 1;
+
+}
+
+.gclogo{
+	position: absolute;
+	width: 25%;
+	left: 0%;
+	top: -9%;
+
+}
+
+/*.coutourwhite{
+	position: absolute;
+	width: 28%;
+	left: 35%;
+	top: 30%;
+}*/
+
+.gclogo:hover{
+	color: rgba(253,214,230,1);
+	animation-name: fadeIn;
+	animation-duration: 2s;
+
+
+}
+
+.poster1{
+	position: absolute;
+	width: 17%;
+	top: 52%;
+	left: 5%;
+	z-index: 2;
+
+
+}
+.poster2{
+	position: absolute;
+	width: 17%;
+	top: 52%;
+	left:23.6%;
+	z-index: 2;
+}
+.poster3{
+	position: absolute;
+	width: 17%;
+	top: 52%;
+	left: 42%;
+	z-index: 2;
+
+
+}
+.poster4{
+	position: absolute;
+	width: 17%;
+	top: 52%;
+	left: 60.5%;
+	z-index: 2;
+
+}
+.poster5{
+	position: absolute;
+	width: 17%;
+	top: 52%;
+	left: 79%;
+	z-index: 2;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}

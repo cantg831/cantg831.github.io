@@ -26,27 +26,104 @@ h2{
 
 }
 
-#input{
+button{
 	position: absolute;
-	z-index: 2;
-	width: 36%;
+	width: 18;
 	top: 25%;
 	left: 32%;
-	
-
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
 
 }
 
-.input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-  }
-
-.input[type=text]:focus {
-    width: 100%;
+.button2{
+	position: absolute;
+	width: 18;
+	top: 25%;
+	left: 37%;
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
 }
 
+.button3{
+	position: absolute;
+	width: 18;
+	top: 25%;
+	left: 44%;
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.button4{
+	position: absolute;
+	width: 18;
+	top: 25%;
+	left: 52%;
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.button5{
+	position: absolute;
+	width: 18;
+	top: 25%;
+	left: 57%;
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.button6{
+	position: absolute;
+	width: 18;
+	top: 25%;
+	left: 61%;
+	background-color: navy;
+	color: white;
+	border-radius:51%;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+
+
+button:hover{
+	animation-name: pulse;
+	animation-duration: 1s;
+
+}
 
 .plate{
 	position: absolute;
@@ -86,6 +163,57 @@ h2{
 	top: 0;
 	left: 83%
 
+
 }
+
+.box{
+	position: absolute;
+	border-radius: 4%;
+	height: 49%;
+	width: 49%;
+	top: 45%;
+	left: 26%;
+	background-color: white;
+	z-index: 1;
+	border-style: solid;
+	border-color: navy;
+	
+}
+
+.definition{
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	width: 50%;
+	color: navy;
+	font-family: helvetica;
+	font-weight: 900;
+	font-size: xx-large;
+	z-index: 2;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
 
 

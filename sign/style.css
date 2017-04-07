@@ -1,0 +1,185 @@
+body{
+	background-color: black;
+	background-blend-mode:hue; 
+}
+
+h1{
+
+	position: absolute;
+	text-transform:uppercase;
+	font-family: times;
+	font-weight: bold;
+	font-size: 138px;
+	color: white;
+	left: 30%;
+
+}
+
+h2{
+	position: absolute;
+	font-family: times;
+	font-weight: bold;
+	font-size: 56px;
+	color: white;
+	left: 18%;
+	top: 23%;
+	transform: rotate(180deg);
+
+}
+
+
+
+/*.logo{
+	position: absolute;
+	width: 30%;
+	left: 36%;
+	top: -6%;
+	z-index: 1;
+}*/
+
+.logo:hover{
+	animation-name: pulse;
+	animation-duration: 1s;
+
+}
+
+.can:hover{
+	animation-name: pulse;
+	animation-duration: 1s;
+}
+
+.can1{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left:-1%;
+
+}
+.can2{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 11%;
+}
+.can3{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 23%;
+
+}
+.can4{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 35%;
+
+}
+.can5{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 47%;
+
+}
+.can6{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: -13%;
+
+}
+.can7{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 59%;
+
+}
+.can8{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 71%;
+
+}
+
+/*.flame1{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 2%;
+
+
+}
+.flame2{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 14%;
+
+}
+.flame3{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 26%;
+
+}
+.flame4{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 38%;
+
+}
+.flame5{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 50%;
+	z-index: 2;
+}
+.flame6{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 62%;
+
+}
+.flame7{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left: 74%;
+
+}
+.flame8{
+	position: absolute;
+	width: 10%;
+	top: 13%;
+	left:86%; 
+
+}*/
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

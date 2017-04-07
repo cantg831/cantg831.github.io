@@ -46,7 +46,7 @@ button{
 	position: absolute;
 	width: 18;
 	top: 25%;
-	left: 37%;
+	left: 38%;
 	background-color: navy;
 	color: white;
 	border-radius:51%;
@@ -61,7 +61,7 @@ button{
 	position: absolute;
 	width: 18;
 	top: 25%;
-	left: 44%;
+	left: 46%;
 	background-color: navy;
 	color: white;
 	border-radius:51%;
@@ -76,7 +76,7 @@ button{
 	position: absolute;
 	width: 18;
 	top: 25%;
-	left: 52%;
+	left: 60%;
 	background-color: navy;
 	color: white;
 	border-radius:51%;
@@ -91,7 +91,7 @@ button{
 	position: absolute;
 	width: 18;
 	top: 25%;
-	left: 57%;
+	left: 55%;
 	background-color: navy;
 	color: white;
 	border-radius:51%;
@@ -166,6 +166,71 @@ button:hover{
 
 }
 
+.show{
+	opacity: 1 !important;
+}
+
+.gif0{
+	position: absolute;
+	width: 15%;
+	top: 70%;
+	left: 43%;
+	z-index: 2;
+	opacity: 0;
+}
+
+.gif1{
+	position: absolute;
+	width: 15%;
+	top: 67%;
+	left: 43%;
+	z-index: 2;
+	opacity: 0;
+	
+}
+
+.gif2{
+	position: absolute;
+	width: 10%;
+	top: 78%;
+	left: 46%;
+	z-index: 2;
+	opacity: 0;
+}
+
+.gif3{
+	position: absolute;
+	width: 10%;
+	top: 70%;
+	left: 45%;
+	z-index: 2;
+	opacity: 0;
+}
+
+.gif4{
+	position: absolute;
+	width: 13%;
+	top: 74%;
+	left: 43%;
+	z-index: 2;
+	opacity: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box{
 	position: absolute;
 	border-radius: 4%;
@@ -183,12 +248,13 @@ button:hover{
 .definition{
 	position: absolute;
 	top: 60%;
-	left: 30%;
-	width: 50%;
+	left: 35%;
+	width: 30%;
+	text-align: center;
 	color: navy;
 	font-family: helvetica;
 	font-weight: 900;
-	font-size: xx-large;
+	font-size: large;
 	z-index: 2;
 }
 

@@ -1,0 +1,59 @@
+body{
+	background-color: black;
+	background-blend-mode:hue; 
+}
+
+h1{
+	color: white;
+	font-size: 500%;
+
+}
+
+p{
+	position: absolute;
+	width: 30%;
+	left: 63%;
+	color: white;
+}
+
+
+
+.logo:hover{
+	animation-name: pulse;
+	animation-duration: 1s;
+
+}
+
+
+
+.can5{
+	position: absolute;
+	width: 40%;
+	top: 32%;
+	left: 23%;
+	cursor: pointer;
+
+}
+
+.timeout{
+	position: absolute;
+	width: 30%;
+	top: 4%;
+	left: 47%;
+}
+
+
+.times{
+	position: absolute;
+	width: 25%;
+	left: 77%;
+	top: 0;
+}
+
+.voice{
+	position: absolute;
+	width: 32%;
+	left: 9%;
+	top: 15%;
+
+}

@@ -4,15 +4,17 @@ body{
 }
 
 h1{
-	color: white;
-	font-size: 500%;
+	color: black;
+	font-size: 900%;
 
 }
 
 p{
 	position: absolute;
+	font-size: large;
 	width: 30%;
 	left: 63%;
+	top: 15%;
 	color: white;
 }
 
@@ -28,9 +30,9 @@ p{
 
 .can4{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 23%;
+	width: 10%;
+	top: 52%;
+	left: 39%;
 	cursor: pointer;
 
 }

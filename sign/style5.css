@@ -4,15 +4,17 @@ body{
 }
 
 h1{
-	color: white;
-	font-size: 500%;
+	color: black;
+	font-size: 900%;
 
 }
 
 p{
 	position: absolute;
+	font-size: large;
 	width: 30%;
 	left: 63%;
+	top: 15%;
 	color: white;
 }
 
@@ -28,9 +30,9 @@ p{
 
 .can5{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 23%;
+	width: 10%;
+	top: 52%;
+	left: 51%;
 	cursor: pointer;
 
 }
@@ -42,18 +44,57 @@ p{
 	left: 47%;
 }
 
+.timeout:hover{
+	animation-duration: 1s;
+	animation-name: pulse;
+
+}
+
 
 .times{
 	position: absolute;
 	width: 25%;
 	left: 77%;
-	top: 0;
+	top: 18;
+}
+
+.times:hover{
+	animation-duration: 1s;
+	animation-name: pulse;
+
 }
 
 .voice{
 	position: absolute;
 	width: 32%;
 	left: 9%;
-	top: 15%;
+	top: 39%;
 
+}
+
+.voice:hover{
+	animation-duration: 1s;
+	animation-name: pulse;
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
 }

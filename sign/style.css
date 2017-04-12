@@ -9,9 +9,9 @@ h1{
 	text-transform:uppercase;
 	font-family: times;
 	font-weight: bold;
-	font-size: 138px;
-	color: white;
-	left: 30%;
+	font-size: 345px;
+	color: black;
+	left: 0%;
 
 }
 
@@ -19,10 +19,11 @@ h2{
 	position: absolute;
 	font-family: times;
 	font-weight: bold;
-	font-size: 50px;
-	color: white;
-	left: 20%;
-	top: 23%;
+	font-size: 169px;
+	color: rgba(255,255, 255, 0.71);
+	left: 0%;
+	top: -16%;
+	opacity: 3;
 	/*transform: rotate(180deg);*/
 
 }
@@ -53,64 +54,64 @@ h2{
 
 .can1{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left:-1%;
+	width: 10%;
+	top: 52%;
+	left:1%;
 	cursor: pointer;
 
 }
 .can2{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 11%;
+	width: 10%;
+	top: 52%;
+	left: 13%;
 	cursor: pointer;
 }
 .can3{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 23%;
+	width: 10%;
+	top: 52%;
+	left: 26%;
 	cursor: pointer;
 
 }
 .can4{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 35%;
+	width: 10%;
+	top: 52%;
+	left: 39%;
 	cursor: pointer;
 
 }
 .can5{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 47%;
+	width: 10%;
+	top: 52%;
+	left: 51%;
 	cursor: pointer;
 
 }
 .can6{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: -13%;
+	width: 10%;
+	top: 52%;
+	left: 63%;
 	cursor: pointer;
 
 }
 .can7{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 59%;
+	width: 10%;
+	top: 52%;
+	left: 75%;
 	cursor: pointer;
 
 }
 .can8{
 	position: absolute;
-	width: 40%;
-	top: 32%;
-	left: 71%;
+	width: 10%;
+	top: 52%;
+	left: 87%;
 	cursor: pointer;
 
 }

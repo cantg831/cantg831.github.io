@@ -24,27 +24,12 @@ h2{
 	left: 0%;
 	top: -16%;
 	opacity: 3;
-	/*transform: rotate(180deg);*/
+	
 
 }
 
 
 
-/*.logo{
-	position: absolute;
-	width: 30%;
-	left: 36%;
-	top: -6%;
-	z-index: 1;
-}
-*/
-
-
-/*.logo:hover{
-	animation-name: pulse;
-	animation-duration: 1s;
-
-}*/
 
 #can:hover{
 	animation-name: pulse;
@@ -116,63 +101,7 @@ h2{
 
 }
 
-/*.flame1{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 2%;
 
-
-}
-.flame2{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 14%;
-
-}
-.flame3{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 26%;
-
-}
-.flame4{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 38%;
-
-}
-.flame5{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 50%;
-	z-index: 2;
-}
-.flame6{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 62%;
-
-}
-.flame7{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left: 74%;
-
-}
-.flame8{
-	position: absolute;
-	width: 10%;
-	top: 13%;
-	left:86%; 
-
-}*/
 
 @keyframes pulse {
   from {

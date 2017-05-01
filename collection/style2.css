@@ -45,7 +45,7 @@ a:hover{
 	position: absolute;
 	width: 24%;
 	left: 40%;
-	top: 7%;
+	top: 1%;
 
 }
 /*.i4{
@@ -56,27 +56,27 @@ a:hover{
 .i5{
 	position: absolute;
 	width: 29%;
-	left: 28%;
-	top: 68%;
+	left: 27%;
+	top: 70%;
 }
 .i6{
 	position: absolute;
 	width: 20%;
 	left: 70%;
-	top: 3%;
+	top: -5%;
 
 }
 .i8{
 	position: absolute;
 	width: 28%;
 	left: 46%;
-	top: 49%;
+	top: 50%;
 }
 .i9{
 	position: absolute;
 	width: 20%;
-	left: 38%;
-	top: 50%;
+	left: 36%;
+	top: 53%;
 }
 .i11{
 	position: absolute;
@@ -95,14 +95,14 @@ a:hover{
 	position: absolute;
 	width: 41%;
 	left: 38%;
-	top: 18%;
+	top: 15%;
 
 }
 .i17{
 	position: absolute;
-	width: 31%;
-	left: 53%;
-	top: 11%;
+	width: 34%;
+	left: 61%;
+	top: 2%;
 }
 .i20{
 	position: absolute;
@@ -112,8 +112,8 @@ a:hover{
 .i21{
 	position: absolute;
 	width: 33%;
-	left: 64%;
-	top: 26%;
+	left: 66%;
+	top: 22%;
 
 }
 /*.i22{
@@ -123,14 +123,14 @@ a:hover{
 .i24{
 	position: absolute;
 	width: 36%;
-	left: -1%;
-	top: 68%;
+	left: 4%;
+	top: 65%;
 }
 .i28{
 	position: absolute;
 	width: 26%;
 	left: 29%;
-	top: 6%;
+	top: 0%;
 }
 .i30{
 	position: absolute;
@@ -144,31 +144,32 @@ a:hover{
 	position: absolute;
 	width: 25%;
 	left: 79%;
-	top: 17%;
+	top: 3%;
 }
 .i34{
 	position: absolute;
 	width: 25%;
 	left: 40%;
-	top: 27%;
+	top: 21%;
 }
 .i35{
 	position: absolute;
 	width: 73%;
-	left: 56%;
+	left: 57%;
+	top: 18%;
 
 }
 .i36{
 	position: absolute;
 	width: 20%;
-	left: 50%;
+	left: 59%;
 	top: 9%;
 }
 .i37{
 	position: absolute;
 	width: 27%;
 	left: 16%;
-	top: 15%;
+	top: -6%;
 
 }
 /*.i49{
@@ -177,27 +178,50 @@ a:hover{
 }*/
 .i53{
 	position: absolute;
-	width: 20%;
-	left: 36%;
+	width: 28%;
+	left: 31%;
+	top: 25%;
 }
 .i72{
 	position: absolute;
 	width: 32%;
 	left: 8%;
-	top: -49%;
+	top: 7%;
 
 }
 .i83{
 	position: absolute;
 	width: 33%;
-	left: -1%;
-	top: 45%;
+	left: 2%;
+	top: 46%;
 }
 .i88{
 	position: absolute;
 	width: 33%;
-	left: 2%;
-	top: 26%;
+	left: 7%;
+	top: 29%;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }
 
 

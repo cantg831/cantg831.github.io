@@ -34,13 +34,7 @@ a:hover{
 	color:pink; 
 }
 
-img:hover{
-	animation-name: pulse;
-	animation-duration: 1s;
-	cursor: pointer;
 
-
-}
 .i29{
 	position: absolute;
 	width: 41%;

@@ -1,0 +1,75 @@
+body{
+	background-color: rgba(236,236,236,0.38);
+	}
+
+h1{
+	font-family: 'League Script', cursive;
+	font-size: 50px;
+		
+}
+
+li{
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style: none;
+	font-size: medium;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:visited{
+	color: pink;
+
+}
+
+a:hover{
+	color:pink; 
+}
+
+.college{
+	position: absolute;
+	width: 40%;
+	top: 0%;
+}
+.driver{
+	position: absolute;
+	width: 43%;
+	top: 40%;
+}
+.fishing{
+	position: absolute;
+	width: 40%;
+	left: 29%;
+}
+.hospital{
+	position: absolute;
+	width: 52%;
+	left: 26%;
+	top: -16%;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

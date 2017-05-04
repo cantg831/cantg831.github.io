@@ -71,9 +71,69 @@ a:hover{
 .lemon{
   position: absolute;
   width: 20%;
+  left: -5%;
+  top: 34%;
 }
+.metrocard{
+  position: absolute;
+  width: 27%
+  top:48%;
+  left:-8% ;
+}
+.nba{
+  position: absolute;
+  width: 22%;
+  top:51%;
+  left:3%;
 
+}
+.card1{
+  position: absolute;
+  width:29% 
+  top:46%;
+  left:7% ;
 
+}
+.card2{
+  position: absolute;
+  width: 29%;
+  top:46%;
+  left:17% ;
+
+}
+.card3{
+  position: absolute;
+  width: 29%
+  top:46%;
+  left:27% ;
+
+}
+.card4{
+  position: absolute;
+  width: 29%
+  top:46%;
+  left:37% ;
+
+}
+.slug{
+  position: absolute;
+  width: 
+  top:;
+  left: ;
+}
+.saint{
+  position: absolute;
+  width: 
+  top:;
+  left: ;
+}
+.recipt{
+  position: absolute;
+  width: 
+  top:;
+  left: ;
+
+}
 
 
 @keyframes pulse {

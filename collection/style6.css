@@ -1,0 +1,110 @@
+body{
+	background-color: rgba(236,236,236,0.38);
+	}
+
+h1{
+	font-family: 'League Script', cursive;
+	font-size: 50px;
+	
+	
+
+}
+
+li{
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style: none;
+	font-size: medium;
+
+}
+
+.summer08{
+	position: absolute;
+	width: 23%;
+	top: 10%;
+	left: 21%;
+}
+.summer08back{
+	position: absolute;
+	width: 23%;
+	top: 10%;
+	left: 2%;
+
+
+}
+.emilyletter{
+	position: absolute;
+	width: 49%;
+	top:38%;
+	left: 62%;
+
+}
+.emilyletter2{
+	position: absolute;
+	width: 40%;
+	top: -1%;
+	left: 67%;
+
+}
+.gracecard1{
+	position: absolute;
+	width: 47%;
+	left: 35%;
+	top: 40%;
+
+
+}
+.graceinside{
+	position: absolute;
+	width: 47%;
+	left: 35%;
+	top: 40%;
+
+}
+.janos{
+	position: absolute;
+	width: 44%;
+	top: 35%;
+	left: -13%;
+
+}
+.postcardback{
+	position: absolute;
+	width: 20%;
+
+}
+a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:visited{
+	color: pink;
+
+}
+
+a:hover{
+	color:pink; 
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

@@ -1,0 +1,153 @@
+body{
+	background-color: rgba(236,236,236,0.38);
+	}
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+
+	font-size: 50px;
+	
+	
+
+}
+
+li{
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style: none;
+	font-size: medium;
+
+}
+
+
+
+a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:visited{
+	color: pink;
+
+}
+
+a:hover{
+	color:pink; 
+}
+
+
+.p1{
+  position: absolute;
+  width: 30%;
+  top: 3%;
+
+}
+/*.p2{
+   position: absolute;
+  width: 30%;
+  top: 2%;
+  left: 23%;
+
+}
+.p3{
+   position: absolute;
+  width: 30%;
+  top: 2%;
+  left: 44%;
+}
+.p4{
+  position: absolute;
+  width: 27%;
+  top: 30%;
+  left: 0%;
+}
+
+.p5{
+  position: absolute;
+  width: 25%;
+  top: 56%;
+  left: -2%;
+}
+.p6{
+   position: absolute;
+  width: 30%;
+  top: 26%;
+  left: 19%;
+}
+.p7{
+   position: absolute;
+  width: 22%;
+  top: 33%;
+  left: 43%;
+}
+.p8{
+   position: absolute;
+  width: 26%;
+  left: 15%;
+  top: 57%;
+
+
+}
+.p9{
+   position: absolute;
+  width: 30%;
+  top: 2%;
+  left: 79%;
+
+}
+.p10{
+   position: absolute;
+  width: 30%;
+  top: 54%;
+  left: 72%;
+}*/
+.p11{
+   position: absolute;
+  width: 20%;
+  top: 65%;
+  left: 39%;
+
+}
+/*.p12{
+   position: absolute;
+  width: 25%;
+  top: 58%;
+  left: 54%;
+
+}
+.p13{
+   position: absolute;
+  width: 30%;
+  top: 28%;
+  left: 60%;
+}
+.p14{
+   position: absolute;
+  width: 29%;
+  top: 3%;
+  left: 64%;
+
+
+}*/
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

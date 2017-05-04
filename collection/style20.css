@@ -36,13 +36,13 @@ a:hover{
 }
 
 
-.p1{
+/*.p1{
   position: absolute;
   width: 30%;
   top: 10%;
 
-}
-/*.p2{
+}*/
+.p2{
    position: absolute;
   width: 30%;
   top: 2%;
@@ -87,15 +87,15 @@ a:hover{
   top: 57%;
 
 
-}*/
-.p9{
+}
+/*.p9{
    position: absolute;
   width: 40%;
   top: 10%;
   left: 59%;
 
-}
-/*.p10{
+}*/
+.p10{
    position: absolute;
   width: 30%;
   top: 54%;
@@ -107,8 +107,8 @@ a:hover{
   top: 65%;
   left: 39%;
 
-}*/
-/*.p12{
+}
+.p12{
    position: absolute;
   width: 25%;
   top: 58%;
@@ -128,7 +128,7 @@ a:hover{
   left: 64%;
 
 
-}*/
+}
 
 @keyframes pulse {
   from {

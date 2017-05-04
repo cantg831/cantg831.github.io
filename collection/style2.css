@@ -1,35 +1,25 @@
 body{
 	background-color: rgba(236,236,236,0.38);
 	}
-
 h1{
-	font-family: 'League Script', cursive;
+	font-family: 'Abril Fatface', cursive;
 	font-size: 50px;
-	
-	
-
 }
-
 li{
 	font-family: 'Open Sans Condensed', sans-serif;
 	list-style: none;
 	font-size: medium;
 
 }
-
-
-
 a:link{
 	text-decoration: none;
 	color: black;
 
 }
-
 a:visited{
 	color: pink;
 
 }
-
 a:hover{
 	color:pink; 
 
@@ -37,170 +27,144 @@ a:hover{
 
 .i1{
 	position: absolute;
-	width: 27%;
-	left: 62%;
-	top: 53%;
+	width: 20%;
+
 }
 .i2{
 	position: absolute;
-	width: 24%;
-	left: 40%;
-	top: 1%;
+	width: 20%;
 
 }
-/*.i4{
+.i3{
 	position: absolute;
 	width: 20%;
 
-}*/
+}
+.i4{
+	position: absolute;
+	width: 20%;
+
+}
 .i5{
 	position: absolute;
-	width: 29%;
-	left: 27%;
-	top: 70%;
+	width: 20%;
+
 }
 .i6{
 	position: absolute;
 	width: 20%;
-	left: 70%;
-	top: -5%;
+}
+.i7{
+	position: absolute;
+	width: 20%;
 
 }
 .i8{
 	position: absolute;
-	width: 28%;
-	left: 46%;
-	top: 50%;
+	width: 20%;
+
 }
 .i9{
 	position: absolute;
 	width: 20%;
-	left: 36%;
-	top: 53%;
+
+}
+.i10{
+	position: absolute;
+	width: 20%;
+
 }
 .i11{
 	position: absolute;
-	width: 25%;
-	left: 40%;
-	top: 39%;
+	width: 20%;
+
+}
+.i12{
+	position: absolute;
+	width: 20%;
+
+}
+.i13{
+	position: absolute;
+	width: 20%;
 
 }
 .i14{
 	position: absolute;
-	width: 30%;
-	left: 53%;
-	top: 28%;
+	width: 20%;
+
 }
 .i15{
 	position: absolute;
-	width: 41%;
-	left: 38%;
-	top: 15%;
+	width: 20%;
+
+}
+.i16{
+	position: absolute;
+	width: 20%;
 
 }
 .i17{
 	position: absolute;
-	width: 34%;
-	left: 61%;
-	top: 2%;
+	width: 20%;
+
+}
+.i18{
+	position: absolute;
+	width: 20%;
+
+}
+.i19{
+	position: absolute;
+	width: 20%;
+
 }
 .i20{
 	position: absolute;
-	width:32%;
-	left: 21%;
+	width: 20%;
+
 }
 .i21{
 	position: absolute;
-	width: 33%;
-	left: 66%;
-	top: 22%;
+	width: 20%;
 
 }
-/*.i22{
+.i22{
 	position: absolute;
 	width: 20%;
-}*/
+
+}
+.i23{
+	position: absolute;
+	width: 20%;
+
+}
 .i24{
 	position: absolute;
-	width: 36%;
-	left: 4%;
-	top: 65%;
-}
-.i28{
-	position: absolute;
-	width: 26%;
-	left: 29%;
-	top: 0%;
-}
-.i30{
-	position: absolute;
-	width: 43%;
-	left: 50%;
-	top: 65%;
+	width: 20%;
 
 }
-
-.i33{
-	position: absolute;
-	width: 25%;
-	left: 79%;
-	top: 3%;
-}
-.i34{
-	position: absolute;
-	width: 25%;
-	left: 40%;
-	top: 21%;
-}
-.i35{
-	position: absolute;
-	width: 73%;
-	left: 57%;
-	top: 18%;
-
-}
-.i36{
+.i25{
 	position: absolute;
 	width: 20%;
-	left: 59%;
-	top: 9%;
-}
-.i37{
-	position: absolute;
-	width: 27%;
-	left: 16%;
-	top: -6%;
 
 }
-/*.i49{
-	position: absolute;
-	width: 20%;
-}*/
-.i53{
-	position: absolute;
-	width: 28%;
-	left: 31%;
-	top: 25%;
-}
-.i72{
-	position: absolute;
-	width: 32%;
-	left: 8%;
-	top: 7%;
 
-}
-.i83{
-	position: absolute;
-	width: 33%;
-	left: 2%;
-	top: 46%;
-}
-.i88{
-	position: absolute;
-	width: 33%;
-	left: 7%;
-	top: 29%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes pulse {
   from {

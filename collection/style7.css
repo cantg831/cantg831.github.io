@@ -1,0 +1,82 @@
+body{
+	background-color: rgba(236,236,236,0.38);
+	}
+
+h1{
+	font-family: 'League Script', cursive;
+	font-size: 50px;
+	
+	
+
+}
+
+li{
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style: none;
+	font-size: medium;
+
+}
+
+
+
+a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:visited{
+	color: pink;
+
+}
+
+a:hover{
+	color:pink; 
+}
+
+.i4{
+	position: absolute;
+	width: 43%;
+	left: 30%;
+
+}
+.i8{
+	position: absolute;
+	width: 44%;
+	top: 31%;
+
+}
+.i16{
+	position: absolute;
+	width: 40%;
+	top: -4%;
+
+}
+.i27{
+	position: absolute;
+	width: 40%;
+	left: 32%;
+
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

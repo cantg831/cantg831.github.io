@@ -35,38 +35,33 @@ a:hover{
 }
 
 
-.i1{
+/*.i1{
 	position: absolute;
 	width: 21%;
 	left: 12%;
 	top:43%;
 
-}
-.i2{
+}*/
+/*.i2{
 	position: absolute;
 	width: 20%;
 	left: 81%;
 	top: 0;
-}
-.i3{
+}*/
+/*.i3{
 	position: absolute;
 	width: 20%;
 	left: 27;
 	top: 26%;
-}
-.i4{
-	position: absolute;
-	width: 20%;
-	left: 25%;
-	top: -7%;
-}
+}*/
+
 .i5{
 	position: absolute;
-	width: 20%;
-	left: 40%;
-	top: -4%;
+	width: 64%;
+	left: 21%;
+	top: 11%;
 }
-.i6{
+/*.i6{
 	position: absolute;
 	width: 20%;
 	left: -2%;
@@ -78,64 +73,64 @@ a:hover{
 	width: 20%;
 	left: 44%;
 
-}
-.i8{
+}*/
+/*.i8{
 	position: absolute;
 	width: 23%;
 	left: 9%;
 	top: 17%;
-}
-.i9{
+}*/
+/*.i9{
 	position: absolute;
 	width: 20%;
 	left: 11%;
 	top: -3%;
-}
-.i10{
+}*/
+/*.i10{
 	position: absolute;
 	width: 14%;
 	left: 26%;
 	top: 7%;
-}
-.i11{
+}*/
+/*.i11{
 	position: absolute;
 	width: 22%;
 	left: 26%;
 	top: 27%;
-}
-.i12{
+}*/
+/*.i12{
 	position: absolute;
 	width: 28%;
 	left: 50%;
 	top: 40%;
 
-}
-.i13{
+}*/
+/*.i13{
 	position: absolute;
 	width: 24%;
 	left: 38%;
 	top: 17%;
 
-}
-.i15{
+}*/
+/*.i15{
 	position: absolute;
 	width: 20%;
 	left: 28%;
 	top: 50%;
-}
-.i16{
+}*/
+/*.i16{
 	position: absolute;
 	width: 20%;
 	left: 50%;
 	top: 26%;
-}
-.i17{
+}*/
+/*.i17{
 	position: absolute;
 	width: 20%;
 	left: 29%;
 	top: 74%;
-}
-.i18{
+}*/
+/*.i18{
 	position: absolute;
 	width: 20%;
 	left: 73%;
@@ -152,20 +147,20 @@ a:hover{
 	width: 20%;
 	left: 64%;
 	top: 54%;
-}
-.i21{
+}*/
+/*.i21{
 	position: absolute;
 	width: 20%;
 	left: 53%;
 	top: 16%;
-}
-.i22{
+}*/
+/*.i22{
 	position: absolute;
 	width: 30%;
 	left: 3%;
 	top: 63%;
-}
-.i23{
+}*/
+/*.i23{
 	position: absolute;
 	width: 20%;
 	left: 52%;
@@ -176,20 +171,20 @@ a:hover{
 	width: 20%;
 	left: 73%;
 	top: 54%;
-}
-.i25{
+}*/
+/*.i25{
 	position: absolute;
 	width: 39%;
 	left: 37%;
 	top: 56%;
-}
-.i26{
+}*/
+/*.i26{
 	position: absolute;
 	width: 23%;
 	left: 63%;
 	top: 12%;
-}
-.i27{
+}*/
+/*.i27{
 	position: absolute;
 	width: 23%;
 	left: 64%;
@@ -206,15 +201,15 @@ a:hover{
 	width: 24%;
 	left: 79%;
 	top: 15%;
-}
-.i30{
+}*/
+/*.i30{
 	position: absolute;
 	width: 51%;
 	left: 64%;
 	top: 35%;
 
 
-}
+}*/
 
 
 @keyframes pulse {
@@ -238,23 +233,3 @@ a:hover{
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

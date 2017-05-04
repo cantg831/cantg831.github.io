@@ -1,5 +1,3 @@
-
-
 body{
 	background-color: rgba(236,236,236,0.38);
 	}
@@ -34,7 +32,42 @@ a:visited{
 
 a:hover{
 	color:pink; 
+}
 
+.i3{
+	position: absolute;
+	width: 45%;
+	top: -9%;
+	left: 58%;
+
+}
+.i10{
+	position: absolute;
+	width: 29%;
+	top: 10%;
+	left: 37%;
+}
+.i18{
+	position: absolute;
+	width: 34%;
+	left: 50%;
+	top: 28%;
+}
+.i19{
+	position: absolute;
+	width: 30%;
+	left: 36%;
+	top: 34%;
+}
+.i20{
+	position: absolute;
+	width: 33%;
+	left: 16%;
+}
+.i28{
+	position: absolute;
+	width: 45%;
+	top: 50%;
 }
 @keyframes pulse {
   from {

@@ -29,6 +29,53 @@ a:visited{
 a:hover{
 	color:pink; 
 }
+
+.strip1{
+  position: absolute;
+  width: 29%;
+  top: 10%;
+}
+.strip2{
+  position: absolute;
+  width: 29%;
+  top: 11%;
+  left: 7%;
+}
+.strip3{
+  position: absolute;
+  width: 32%;
+  top: 9%;
+  left: 12%;
+
+}
+.strip4{
+  position: absolute;
+  width: 29%;
+  left: 20%;
+  top: 10%;
+}
+.strip5{
+  position: absolute;
+  width: 29%;
+  left: 39%;
+  top: 10%;
+
+}
+.strip6{
+  position: absolute;
+  width: 28%;
+  left: 28%;
+  top: 10%;
+
+}
+.lemon{
+  position: absolute;
+  width: 20%;
+}
+
+
+
+
 @keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);

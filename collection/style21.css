@@ -22,12 +22,58 @@ a:link{
 }
 
 a:visited{
-	color: pink;
+	color: blacks;
 
 }
 
 a:hover{
 	color:pink; 
+}
+
+.nba{
+  position: absolute;
+  width: 22%;
+  top:62%;
+  left:-7%;
+
+}
+
+.slug{
+  position: absolute;
+  width: 20%; 
+  top:-3%;
+  left: 58%;
+}
+.truereligion{
+  position: absolute;
+  width: 23%;
+  top:2%;
+  left:77% ;
+
+}
+.bob{
+  position: absolute;
+  width: 20%;
+  top:77%;
+  left: 1%;
+}
+.chanel{
+  position: absolute;
+  width: 23%;
+  top:74%;
+  left: 11%;
+}
+.converse{
+  position: absolute;
+  width: 20%;
+  top:22%;
+  left: 85%;
+}
+.dilligaf{
+  position: absolute;
+  width: 20%;
+  top:43%;
+  left: 44%;
 }
 
 @keyframes pulse {

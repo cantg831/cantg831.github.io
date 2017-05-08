@@ -21,7 +21,7 @@ a:link{
 }
 
 a:visited{
-	color: pink;
+	color: black;
 
 }
 
@@ -95,13 +95,7 @@ a:hover{
   top: 54%;
   left: 72%;
 }
-.p11{
-   position: absolute;
-  width: 20%;
-  top: 65%;
-  left: 39%;
 
-}
 .p12{
    position: absolute;
   width: 25%;

@@ -1,0 +1,265 @@
+body{
+	background-color: rgba(236,236,236,0.38);
+	}
+
+h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50px;
+		
+}
+
+li{
+	font-family: 'Open Sans Condensed', sans-serif;
+	list-style: none;
+	font-size: medium;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:visited{
+	color: black;
+
+}
+
+a:hover{
+	color:pink; 
+}
+
+/*.strip1{
+  position: absolute;
+  width: 29%;
+  top: 10%;
+  left: -3%;
+}
+.strip2{
+  position: absolute;
+  width: 29%;
+  top: 11%;
+  left: 3%;
+}
+.strip3{
+  position: absolute;
+  width: 32%;
+  top: 9%;
+  left: 8%;
+
+}
+.strip4{
+  position: absolute;
+  width: 29%;
+  left: 16%;
+  top: 10%;
+}
+.strip5{
+  position: absolute;
+  width: 29%;
+  left: 31%;
+  top: 10%;
+
+}
+.strip6{
+  position: absolute;
+  width: 28%;
+  left: 22%;
+  top: 10%;
+
+}
+.lemon{
+  position: absolute;
+  width: 23%;
+  left: 46%;
+  top: 16%;
+}
+.metrocard{
+  position: absolute;
+  width: 25%;
+  top:-5%;
+  left:46% ;
+}
+.nba{
+  position: absolute;
+  width: 22%;
+  top:62%;
+  left:-7%;
+
+}
+.card1{
+  position: absolute;
+  width:27% ;
+  top:46%;
+  left:28% ;
+
+}
+.card2{
+  position: absolute;
+  width: 27%;
+  top:46%;
+  left:10% ;
+
+}
+.card3{
+  position: absolute;
+  width: 27%;
+  top:46%;
+  left:-1% ;
+
+}
+.card4{
+  position: absolute;
+  width: 27%;
+  top:46%;
+  left:19% ;
+
+}
+.slug{
+  position: absolute;
+  width: 20%; 
+  top:-3%;
+  left: 58%;
+}
+.saint{
+  position: absolute;
+  width: 21%;
+  top:42%;
+  left: -5%;
+}
+.recipt{
+  position: absolute;
+  width: 20%;
+  top:28%;
+  left: 72%;
+
+}
+.truereligion{
+  position: absolute;
+  width: 23%;
+  top:2%;
+  left:77% ;
+
+}*/
+.ytown{
+  position: absolute;
+  width: 20%;
+  top:-6%;
+  left: 69%;
+}
+/*.billy{
+  position: absolute;
+  width: 25%;
+  top:25%;
+  left:62% ;
+}
+.bob{
+  position: absolute;
+  width: 20%;
+  top:77%;
+  left: 1%;
+}
+.chanel{
+  position: absolute;
+  width: 23%;
+  top:74%;
+  left: 11%;
+}
+.christmas1{
+  position: absolute;
+  width: 23%;
+  top:75%;
+  left: 23%;
+}
+.christmas2{
+  position: absolute;
+  width: 22%;
+  top:74%;
+  left: 36%;
+}
+.coaster1{
+  position: absolute;
+  width:12%;;
+  top:-1%;
+  left: 90%;
+}
+.coaster2{
+  position: absolute;
+  width: 12%;
+  top:13%;
+  left: 90%;
+}
+.comic{
+  position: absolute;
+  width: 28%;
+  top:66%;
+  left: 45%;
+}
+.converse{
+  position: absolute;
+  width: 20%;
+  top:22%;
+  left: 85%;
+}*/
+.cupcakes{
+  position: absolute;
+  width: 17%;
+  top:9%;
+  left: 70%;
+}
+/*.dagnino{
+  position: absolute;
+  width: 23%;
+  top:-8%;
+  left: 33%;
+}*/
+.dilligaf{
+  position: absolute;
+  width: 20%;
+  top:43%;
+  left: 44%;
+}
+/*.dutchmasters{
+  position: absolute;
+  width: 31%;
+  top:32%;
+  left: 51%;
+
+}
+.easydoesit{
+  position: absolute;
+  width: 22%;
+  top:42%;
+  left:68% ;
+}
+.fan{
+  position: absolute;
+  width: 29%;
+  top:66%;
+  left: 61%;
+}
+.flipbook{
+  position: absolute;
+  width: 33%;
+  top:46%;
+  left: 61%;
+}
+.flyingpig{
+  position: absolute;
+  width: 22%;
+  top:75%;
+  left: 81%;
+}
+.graffitiposter{
+  position: absolute;
+  width: 32%;
+  top:40%;
+  left: 77%;
+}*/
+.happycamper{
+  position: absolute;
+  width: 20%;
+  top:14%;
+  left: 57%;
+}

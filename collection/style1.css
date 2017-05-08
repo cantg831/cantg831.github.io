@@ -26,7 +26,7 @@ a:link{
 }
 
 a:visited{
-	color: pink;
+	color: black;
 
 }
 
@@ -51,8 +51,8 @@ a:hover{
 .i3{
 	position: absolute;
 	width: 20%;
-	left: 27;
-	top: 26%;
+	left: 17%;
+	top: 17%;
 }
 .i4{
 	position: absolute;
@@ -81,9 +81,9 @@ a:hover{
 }
 .i8{
 	position: absolute;
-	width: 23%;
-	left: 9%;
-	top: 17%;
+	width: 18%;
+	left: 32%;
+	top: 19%;
 }
 .i9{
 	position: absolute;
@@ -94,14 +94,14 @@ a:hover{
 .i10{
 	position: absolute;
 	width: 14%;
-	left: 26%;
-	top: 7%;
+	left: 3%;
+	top: 38%;
 }
 .i11{
 	position: absolute;
 	width: 22%;
-	left: 26%;
-	top: 27%;
+	left: 27%;
+	top: 32%;
 }
 .i12{
 	position: absolute;

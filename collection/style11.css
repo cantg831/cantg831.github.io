@@ -26,7 +26,7 @@ a:link{
 }
 
 a:visited{
-	color: pink;
+	color: black;
 
 }
 
@@ -63,14 +63,14 @@ a:hover{
 }*/
 .i6{
 	position: absolute;
-	width: 20%;
+	width: 36%;
 	left: -2%;
 	top: 51%;
 
 }
 .i7{
 	position: absolute;
-	width: 20%;
+	width: 47%;
 	left: 44%;
 
 }
@@ -82,9 +82,9 @@ a:hover{
 }*/
 .i9{
 	position: absolute;
-	width: 20%;
+	width: 32%;
 	left: 11%;
-	top: -3%;
+	top: 16%;
 }
 /*.i10{
 	position: absolute;
@@ -94,9 +94,9 @@ a:hover{
 }*/
 .i11{
 	position: absolute;
-	width: 22%;
-	left: 26%;
-	top: 27%;
+	width: 35%;
+	left: 36%;
+	top: 4%;
 }
 /*.i12{
 	position: absolute;
@@ -126,9 +126,9 @@ a:hover{
 }*/
 .i17{
 	position: absolute;
-	width: 20%;
+	width: 29%;
 	left: 29%;
-	top: 74%;
+	top: 63%;
 }
 /*.i18{
 	position: absolute;

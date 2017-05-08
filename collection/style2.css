@@ -17,7 +17,7 @@ a:link{
 
 }
 a:visited{
-	color: pink;
+	color: black;
 
 }
 a:hover{
@@ -168,8 +168,8 @@ a:hover{
 .i21{
 	position: absolute;
 	width: 30%;
-	left: 47%;
-	top: 68%;
+	left: -5%;
+	top: 31%;
 
 }
 .i22{
@@ -205,6 +205,13 @@ a:hover{
 	width: 33%;
 	left: 67%;
 	top: 63%;
+}
+.i27{
+	position: absolute;
+	width: 31%;
+	left: -6%;
+	top: 47%;
+
 }
 
 

@@ -19,7 +19,10 @@ li{
 
 }
 
-
+img:hover{
+	animation-name: pulse;
+	animation-duration: 1s;
+}
 
 a:link{
 	text-decoration: none;
@@ -35,4 +38,95 @@ a:visited{
 a:hover{
 	color:pink; 
 
+
+
+}
+
+.ticket{
+	position: absolute;
+	width: 5%;
+	top: 21%;
+
+}
+
+.clock{
+	position: absolute;
+	width: 5%;
+	top: 32%;
+	animation-name: pulse;
+
+}
+
+.message{
+	position: absolute;
+	width: 5%;
+	top: 42%;
+	animation-name: pulse;
+
+}
+
+.idcard{
+	position: absolute;
+	width: 5%;
+	top: 51%;
+	animation-name: pulse;
+
+}
+
+.flyer{
+	position: absolute;
+	width: 5%;
+	top: 61%;
+	animation-name: pulse;
+
+}
+
+.contact{
+	position: absolute;
+	width: 5%;
+	top: 72%;
+	animation-name: pulse;
+
+}
+
+
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }

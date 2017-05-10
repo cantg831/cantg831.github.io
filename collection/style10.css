@@ -35,6 +35,15 @@ a:hover{
 }
 
 
+.home{
+	position: absolute;
+	width: 3%;
+	top: 20%;
+	z-index: 10;
+	
+}
+
+
 /*.i1{
 	position: absolute;
 	width: 21%;

@@ -32,6 +32,14 @@ a:hover{
 	left: 14%;
 
 }
+
+.home{
+	position: absolute;
+	width: 3%;
+	top: 20%;
+	z-index: 10;
+	
+}
 /*.i2{
 	position: absolute;
 	width: 30%;

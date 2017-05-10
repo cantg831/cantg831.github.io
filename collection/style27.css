@@ -22,12 +22,20 @@ a:link{
 }
 
 a:visited{
-	color: blacks;
+	color: black;
 
 }
 
 a:hover{
 	color:pink; 
+}
+
+.home{
+  position: absolute;
+  width: 3%;
+  top: 20%;
+  z-index: 10;
+  
 }
 
 /*.strip1{

@@ -30,6 +30,14 @@ a:hover{
 	color:pink; 
 }
 
+.home{
+  position: absolute;
+  width: 3%;
+  top: 20%;
+  z-index: 10;
+  
+}
+
 /*.strip1{
   position: absolute;
   width: 29%;
